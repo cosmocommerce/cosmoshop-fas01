@@ -3,3 +3,4 @@ themefas01.xml     app/design/frontend/base/default/layout/themefas01.xml
 admin/themefas01.xml     app/design/adminhtml/default/default/layout/themefas01.xml
 CosmoCommerce_ThemeFas01.xml                          app/etc/modules/CosmoCommerce_ThemeFas01.xml
 template/customer/widget/name.phtml                             app/design/frontend/default/cosmo_shop1301/template/customer/widget/name.phtml
+template/customer/widget/name.phtml                             app/design/frontend/cosmo/default/template/customer/widget/name.phtml
