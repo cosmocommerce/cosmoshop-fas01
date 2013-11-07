@@ -3,6 +3,9 @@ class CosmoCommerce_ThemeFas01_Block_Adminhtml_Catalog_Product_Edit_Tabs extends
 {
     protected function _prepareLayout()
     {
-        return parent::_prepareLayout();
+        parent::_prepareLayout();
+        $this->removeTab('tags');
+        $this->removeTab('customers_tags');
+        return ;
     }
 }
