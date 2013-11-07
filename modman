@@ -1,3 +1,4 @@
 code                                   app/code/community/CosmoCommerce/ThemeFas01
 themefas01.xml     app/design/frontend/base/default/layout/themefas01.xml
+admin/themefas01.xml     app/design/adminhtml/default/default/layout/themefas01.xml
 CosmoCommerce_ThemeFas01.xml                          app/etc/modules/CosmoCommerce_ThemeFas01.xml
