@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <modules>
+            <CosmoCommerce_ThemeFas01>
+                <version>0.1.0</version>
+            </CosmoCommerce_ThemeFas01>
+        </modules>
+    </global>
+    <frontend>
+        <translate>
+            <modules>
+                <CosmoCommerce_ThemeFas01>
+                    <files>
+                        <default>CosmoCommerce_ThemeFas01.csv</default>
+                    </files>
+                </CosmoCommerce_ThemeFas01>
+            </modules>
+        </translate>
+        <layout>
+            <updates>
+                <alipay>
+                    <file>themefas01.xml</file>
+                </alipay>
+            </updates>
+        </layout>
+    </frontend>
+
+</config>
