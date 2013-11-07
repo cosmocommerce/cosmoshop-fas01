@@ -6,6 +6,13 @@
                 <version>0.1.0</version>
             </CosmoCommerce_ThemeFas01>
         </modules>
+        <blocks>
+			<adminhtml>
+				<rewrite>
+					<catalog_product_edit_tabs>CosmoCommerce_ThemeFas01_Block_Adminhtml_Catalog_Product_Edit_Tabs</catalog_product_edit_tabs>
+				</rewrite>
+			</adminhtml>
+        </blocks>
     </global>
     <frontend>
         <translate>
@@ -25,5 +32,51 @@
             </updates>
         </layout>
     </frontend>
-
+    <adminhtml>
+        <menu>
+             <sales>
+                <children>
+                    <recurring_profile>
+                        <disabled>1</disabled>
+                    </recurring_profile>
+                    <billing_agreement>
+                        <disabled>1</disabled>
+                    </billing_agreement>
+                    <tax>
+                        <disabled>1</disabled>
+                    </tax>
+                    <checkoutagreement>
+                        <disabled>1</disabled>
+                    </checkoutagreement>
+                </children>
+             </sales>
+             <catalog>
+                <children>
+                    <tag>
+                        <disabled>1</disabled>
+                    </tag>
+                </children>
+             </catalog>
+             <xmlconnect>
+                <disabled>1</disabled>
+             </xmlconnect>
+             <cms>
+                <children>
+                    <poll>
+                        <disabled>1</disabled>
+                    </poll>
+                    <widget_instance>
+                        <disabled>1</disabled>
+                    </widget_instance>
+                </children>
+             </cms>
+             <report>
+                <children>
+                    <tags>
+                        <disabled>1</disabled>
+                    </tags>
+                </children>
+             </report>
+        </menu>
+    </adminhtml>
 </config>

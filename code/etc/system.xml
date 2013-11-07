@@ -1,26 +1,35 @@
 <?xml version="1.0"?>
 <config>
     <sections>
-        <design>
+        <themefas01>
+            <label>FAS01 Settings</label>
+            <tab>cosmocommerce</tab>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <sort_order>99999</sort_order>
             <groups>
-                <!--
-                <admin translate="label">
-                    <label>Admin Theme</label>
+                <fas01>
+                    <label>Update Notifications2</label>
                     <frontend_type>text</frontend_type>
-                    <sort_order>1</sort_order>
+                    <sort_order>60</sort_order>
                     <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
                     <fields>
-                        <theme translate="label comment">
-                            <label>Admin theme name</label>
-                            <comment>Override default admin theme, so you can put any custom template and skin in your dir, don't modify magento default directly</comment>
-                            <frontend_type>text</frontend_type>
-                            <sort_order>1</sort_order>
+                        <enable translate="label">
+                            <label>Enable </label>
+                            <comment><![CDATA[ <b>To get the latest security updates we suggest to enable this module.</b><br /><img src="http://www.cosmocommerce.com/images/logo.png" /><br />Contact Information:<br />Tel:+86-021-66346672<br />Support:support@cosmocommerce.com <br />Sales:sales@cosmocommerce.com<br />Website:<a href="http://www.cosmocommerce.com" target="_blank" >CosmoCommerce.com</a>]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>90</sort_order>
                             <show_in_default>1</show_in_default>
-                        </theme>
-                    </fields>
-                </admin>
-                -->
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </enable>		
+                    </fields>	
+                </fas01>		
             </groups>
-        </design>
+        </themefas01>
     </sections>
 </config>

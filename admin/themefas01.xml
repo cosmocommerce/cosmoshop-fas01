@@ -1,4 +1,10 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
 
+    <adminhtml_catalog_product_taggrid>
+        <remove name="admin.product.tags" />
+    </adminhtml_catalog_product_taggrid>
+    <adminhtml_catalog_product_tagcustomergrid>
+        <remove name="admin.product.tags.customers" />
+    </adminhtml_catalog_product_tagcustomergrid>
 </layout>
