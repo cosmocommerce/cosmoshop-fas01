@@ -1,11 +1,16 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
 
+    <default>
+        <remove name="right.poll" />
+        <remove name="left.poll" />
+    </default>
     <customer_account>
         <reference name="customer_account_navigation" >
             <action method="removeLink" translate="label"><name>billing_agreements</name></action>
             <action method="removeLink" translate="label"><name>recurring_profiles</name></action>
             <action method="removeLink" translate="label"><name>OAuth Customer Tokens</name></action>
+            <action method="removeLink" translate="label"><name>downloadable_products</name></action>
         </reference>
     </customer_account>
 </layout>
