@@ -85,6 +85,26 @@
                         <default>CosmoCommerce_ThemeFas01.csv</default>
                     </files>
                 </Queldorei_Shopperslideshow>
+                <Queldorei_Priceslider>
+                    <files>
+                        <default>CosmoCommerce_ThemeFas01.csv</default>
+                    </files>
+                </Queldorei_Priceslider>
+                <Queldorei_Shoppercategories>
+                    <files>
+                        <default>CosmoCommerce_ThemeFas01.csv</default>
+                    </files>
+                </Queldorei_Shoppercategories>
+                <Queldorei_ShopperSettings>
+                    <files>
+                        <default>CosmoCommerce_ThemeFas01.csv</default>
+                    </files>
+                </Queldorei_ShopperSettings>
+                <queldorei>
+                    <files>
+                        <default>CosmoCommerce_ThemeFas01.csv</default>
+                    </files>
+                </queldorei>
             </modules>
         </translate>
     </adminhtml>
