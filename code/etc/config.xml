@@ -78,5 +78,14 @@
                 </children>
              </report>
         </menu>
+        <translate>
+            <modules>
+                <CosmoCommerce_ThemeFas01>
+                    <files>
+                        <default>CosmoCommerce_ThemeFas01.csv</default>
+                    </files>
+                </CosmoCommerce_ThemeFas01>
+            </modules>
+        </translate>
     </adminhtml>
 </config>
