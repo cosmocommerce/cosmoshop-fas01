@@ -26,9 +26,9 @@
         </translate>
         <layout>
             <updates>
-                <alipay>
+                <themefas01>
                     <file>themefas01.xml</file>
-                </alipay>
+                </themefas01>
             </updates>
         </layout>
     </frontend>
