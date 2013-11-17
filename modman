@@ -5,4 +5,5 @@ CosmoCommerce_ThemeFas01.xml                          app/etc/modules/CosmoComme
 template/customer/widget/name.phtml                             app/design/frontend/default/cosmo_shop1301/template/customer/widget/name.phtml
 template/customer/widget/name.phtml                             app/design/frontend/cosmo/default/template/customer/widget/name.phtml
 template/sales/order/history.phtml                             app/design/frontend/cosmo/default/template/sales/order/history.phtml
+template/sales/order/recent.phtml                             app/design/frontend/cosmo/default/template/sales/order/recent.phtml
 translate/CosmoCommerce_ThemeFas01.csv  app/locale/zh_CN/CosmoCommerce_ThemeFas01.csv
