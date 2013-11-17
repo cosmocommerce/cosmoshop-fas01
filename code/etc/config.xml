@@ -80,11 +80,11 @@
         </menu>
         <translate>
             <modules>
-                <CosmoCommerce_ThemeFas01>
+                <Queldorei_Shopperslideshow>
                     <files>
                         <default>CosmoCommerce_ThemeFas01.csv</default>
                     </files>
-                </CosmoCommerce_ThemeFas01>
+                </Queldorei_Shopperslideshow>
             </modules>
         </translate>
     </adminhtml>
