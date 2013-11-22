@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config>
     <sections>
-        <themefas01>
+        <themefas01 translate="label" module="themefas01">
             <label>FAS01 Settings</label>
             <tab>cosmocommerce</tab>
             <show_in_default>1</show_in_default>
@@ -10,7 +10,7 @@
             <sort_order>99999</sort_order>
             <groups>
                 <fas01>
-                    <label>Update Notifications2</label>
+                    <label>Update Notifications</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>60</sort_order>
                     <show_in_default>1</show_in_default>
@@ -18,8 +18,7 @@
                     <show_in_store>1</show_in_store>
                     <fields>
                         <enable translate="label">
-                            <label>Enable </label>
-                            <comment><![CDATA[ <b>To get the latest security updates we suggest to enable this module.</b><br /><img src="http://www.cosmocommerce.com/images/logo.png" /><br />Contact Information:<br />Tel:+86-021-66346672<br />Support:support@cosmocommerce.com <br />Sales:sales@cosmocommerce.com<br />Website:<a href="http://www.cosmocommerce.com" target="_blank" >CosmoCommerce.com</a>]]></comment>
+                            <label>Enable</label>
                             <frontend_type>select</frontend_type>
                             <sort_order>90</sort_order>
                             <show_in_default>1</show_in_default>
@@ -31,5 +30,6 @@
                 </fas01>		
             </groups>
         </themefas01>
+        
     </sections>
 </config>

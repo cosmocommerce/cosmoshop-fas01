@@ -1,18 +1,16 @@
 <?xml version="1.0"?>
 <config>
     <global>
+		<helpers>
+			<themefas01>
+				<class>CosmoCommerce_ThemeFas01_Helper</class>
+			</themefas01>
+		</helpers>
         <modules>
             <CosmoCommerce_ThemeFas01>
-                <version>0.1.0</version>
+                <version>0.1.1</version>
             </CosmoCommerce_ThemeFas01>
         </modules>
-        <blocks>
-			<adminhtml>
-				<rewrite>
-					<catalog_product_edit_tabs>CosmoCommerce_ThemeFas01_Block_Adminhtml_Catalog_Product_Edit_Tabs</catalog_product_edit_tabs>
-				</rewrite>
-			</adminhtml>
-        </blocks>
     </global>
     <frontend>
         <translate>
@@ -33,6 +31,13 @@
         </layout>
     </frontend>
     <adminhtml>
+		<acl>
+			<resources>
+				<all>
+					<title>Allow Everything</title>
+				</all>
+			</resources>
+		</acl>
         <menu>
              <sales>
                 <children>
@@ -105,7 +110,12 @@
                         <default>CosmoCommerce_ThemeFas01.csv</default>
                     </files>
                 </queldorei>
+                <CosmoCommerce_ThemeFas01>
+                    <files>
+                        <default>CosmoCommerce_ThemeFas01.csv</default>
+                    </files>
+                </CosmoCommerce_ThemeFas01>
             </modules>
         </translate>
-    </adminhtml>
+    </adminhtml> 
 </config>
