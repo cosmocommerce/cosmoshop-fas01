@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <config>
     <global>
-		<helpers>
-			<themefas01>
-				<class>CosmoCommerce_ThemeFas01_Helper</class>
-			</themefas01>
-		</helpers>
         <modules>
             <CosmoCommerce_ThemeFas01>
                 <version>0.1.1</version>
             </CosmoCommerce_ThemeFas01>
         </modules>
+		<helpers>
+			<themefas01>
+				<class>CosmoCommerce_ThemeFas01_Helper</class>
+			</themefas01>
+		</helpers>
     </global>
     <frontend>
         <translate>
@@ -36,6 +36,14 @@
 				<all>
 					<title>Allow Everything</title>
 				</all>
+				<admin>
+					<children>
+						<CosmoCommerce_ThemeFas01>
+							<title>FAS01 Template</title>
+							<sort_order>10</sort_order>
+						</CosmoCommerce_ThemeFas01>
+					</children>
+				</admin>
 			</resources>
 		</acl>
         <menu>

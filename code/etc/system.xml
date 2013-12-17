@@ -1,7 +1,13 @@
 <?xml version="1.0"?>
 <config>
+    <tabs>
+        <cosmocommerce translate="label" module="themefas01">
+            <label>CosmoCommerce.com</label>
+            <sort_order>300</sort_order>
+        </cosmocommerce>
+    </tabs>
     <sections>
-        <themefas01 translate="label" module="themefas01">
+        <themesetting>
             <label>FAS01 Settings</label>
             <tab>cosmocommerce</tab>
             <show_in_default>1</show_in_default>
@@ -9,7 +15,7 @@
             <show_in_store>1</show_in_store>
             <sort_order>99999</sort_order>
             <groups>
-                <fas01>
+                <themefas01>
                     <label>Update Notifications</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>60</sort_order>
@@ -27,9 +33,9 @@
                             <source_model>adminhtml/system_config_source_yesno</source_model>
                         </enable>		
                     </fields>	
-                </fas01>		
+                </themefas01>		
             </groups>
-        </themefas01>
+        </themesetting>
         
     </sections>
 </config>
