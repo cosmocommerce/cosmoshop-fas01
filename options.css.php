@@ -1,10 +1,11 @@
 <?php 
 define('MAGENTO_ROOT', dirname(__FILE__));
-$mageFilename = MAGENTO_ROOT . '/app/Mage.php';
+$mageFilename = MAGENTO_ROOT . '/../../app/Mage.php';
+
 require_once $mageFilename;
 
 umask(0);
-
+ 
 if ( empty($_GET['store']) ) {
     $_GET['store'] = '';
 }
@@ -31,8 +32,9 @@ if (!empty($_GET['cat'])) {
 
 header("Content-type: text/css; charset: UTF-8");
 ?>
-
-
+/**~~ Shopper v1.5.2 ~~**/
+<?php if ( $config['appearance']['enable_font'] == 1 ) : ?>
+/**~~ Theme Font ~~**/
 .std h1, .std h2, .std h3, .std h4,
 .page-title h1, .page-title h2,
 .cart-top-title,
@@ -79,7 +81,7 @@ nav .nav-top-title, .nav-container .nav-top-title,
 .data-table td.td-name h2,
 .block-slider .slides > li strong,
 .cms-index-index .block-slider .slides > li strong {font-family:"<?php echo $config['appearance']['font']; ?>"}
-
+<?php endif; ?>
 <?php if ( !empty($config['appearance']['color']) ) : ?>
 /**~~ Theme Color ~~**/
 button.button span,
@@ -118,6 +120,7 @@ nav .nav-top-title.active, .nav-container .nav-top-title.active,
 nav .nav-top-title div.icon span, .nav-container .nav-top-title div.icon span
 {background-color:<?php echo $config['appearance']['color']; ?>}
 
+#onepagecheckout_orderform button.button.btn-checkout {background-color: <?php echo $config['appearance']['color']; ?>;}
 /***** iPad Smaller than 959px *****/
 @media only screen and (max-width: 959px) {
     #queldoreiNav>li>a:hover, #nav>li>a:hover, #mobile-nav>li>a:hover,
