@@ -238,7 +238,7 @@ body, .main-container {background-color:<?php echo $config['appearance']['conten
 <?php if ( !empty($config['appearance']['toolbar_bg']) ) : ?>
 .top-switch-bg {background-color:<?php echo $config['appearance']['toolbar_bg']; ?>}
 #checkout-coupon-discount-load, .onepagecheckout_block {border-top: 6px solid <?php echo $config['appearance']['toolbar_bg']; ?>;}
-
+.popup-wrap .popup-title { position:relative; height:23px; line-height:23px; background:<?php echo $config['appearance']['toolbar_bg']; ?>; }
 <?php endif; ?>
 <?php if ( !empty($config['appearance']['toolbar_color']) ) : ?>
 .header-switch span.current {color:<?php echo $config['appearance']['toolbar_color']; ?>}
