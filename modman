@@ -12,3 +12,5 @@ layout/local.xml                            app/design/frontend/default/cosmo_sh
 template/sales/order/history.phtml                             app/design/frontend/cosmo/default/template/sales/order/history.phtml
 template/sales/order/recent.phtml                             app/design/frontend/cosmo/default/template/sales/order/recent.phtml
 translate/CosmoCommerce_ThemeFas01.csv  app/locale/zh_CN/CosmoCommerce_ThemeFas01.csv
+
+options.css.php     options.css.php
