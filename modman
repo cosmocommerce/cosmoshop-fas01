@@ -6,6 +6,10 @@ CosmoCommerce_ThemeFas01.xml                          app/etc/modules/CosmoComme
 
 template/page/html/head.phtml                             app/design/frontend/default/cosmo_shop1301/template/page/html/head.phtml
 layout/local.xml                            app/design/frontend/default/cosmo_shop1301/layout/local.xml
+layout/ajax.xml                            app/design/frontend/default/cosmo_shop1301/layout/ajax.xml
+layout/ajaxwishlist.xml                            app/design/frontend/default/cosmo_shop1301/layout/ajaxwishlist.xml
+layout/queldorei/shoppersettings.xml                            app/design/frontend/default/cosmo_shop1301/layout/queldorei/shoppersettings.xml
+layout/queldorei/priceslider.xml.xml                            app/design/frontend/default/cosmo_shop1301/layout/queldorei/priceslider.xml.xml
 
 
 
