@@ -9,7 +9,7 @@ layout/local.xml                            app/design/frontend/default/cosmo_sh
 layout/ajax.xml                            app/design/frontend/default/cosmo_shop1301/layout/ajax.xml
 layout/ajaxwishlist.xml                            app/design/frontend/default/cosmo_shop1301/layout/ajaxwishlist.xml
 layout/queldorei/shoppersettings.xml                            app/design/frontend/default/cosmo_shop1301/layout/queldorei/shoppersettings.xml
-layout/queldorei/priceslider.xml.xml                            app/design/frontend/default/cosmo_shop1301/layout/queldorei/priceslider.xml.xml
+layout/queldorei/priceslider.xml                            app/design/frontend/default/cosmo_shop1301/layout/queldorei/priceslider.xml
 
 
 
