@@ -1,0 +1,7 @@
+<?php
+
+class CosmoCommerce_ThemeFas01_Adminhtml_ActivateController extends Queldorei_ShopperSettings_Adminhtml_ActivateController
+{
+
+
+}

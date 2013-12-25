@@ -7,7 +7,7 @@
         </cosmocommerce>
     </tabs>
     <sections>
-        <themesetting>
+        <themesetting translate="label">
             <label>FAS01 Settings</label>
             <tab>cosmocommerce</tab>
             <show_in_default>1</show_in_default>

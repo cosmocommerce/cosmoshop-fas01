@@ -30,6 +30,17 @@
             </updates>
         </layout>
     </frontend>
+    <admin>
+        <routers>
+            <shoppersettings>
+                <args>
+                    <modules>
+                        <CosmoCommerce_ThemeFas01 before="Queldorei_ShopperSettings">CosmoCommerce_ThemeFas01</CosmoCommerce_ThemeFas01>
+                    </modules>
+                </args>
+            </shoppersettings>
+        </routers>
+    </admin>
     <adminhtml>
 		<acl>
 			<resources>

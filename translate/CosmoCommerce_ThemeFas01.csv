@@ -97,3 +97,8 @@
 
 "FAS01 Settings","FAS01 模板设置"
 "Fashion Template Settings","时尚模板 FAS01 设置"
+
+"Restore Defaults","恢复默认值"
+"Restore Parameters","恢复参数"
+"Clear Configuration Scopes","配置恢复"
+"Default Settings for Shopper Theme has been restored. Please clear cache (System > Cache management) if you do not see changes in storefront","配置已经清空."
