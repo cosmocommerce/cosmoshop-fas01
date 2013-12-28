@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <config>
     <global>
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <shoppercategories_edit_tab_form>CosmoCommerce_ThemeFas01_Block_Adminhtml_Shoppercategories_Edit_Tab_Form</shoppercategories_edit_tab_form>
+                </rewrite>
+            </adminhtml>
+        </blocks>
         <modules>
             <CosmoCommerce_ThemeFas01>
                 <version>0.1.1</version>

@@ -101,4 +101,91 @@
 "Restore Defaults","恢复默认值"
 "Restore Parameters","恢复参数"
 "Clear Configuration Scopes","配置恢复"
-"Default Settings for Shopper Theme has been restored. Please clear cache (System > Cache management) if you do not see changes in storefront","配置已经清空."
+"Check if you want to clear theme settings for all scopes ( default, websites, stores ) ","选择本配置将会重置所有设置信息."
+"Restore Default Cms Pages & Blocks","页面和模块重置."
+"ATTENTION: All changes to cms pages/blocks will be lost","注意:所有的页面资料和模块信息将会被清空重新恢复为默认信息."
+"An error occurred while restoring theme settings.","重置遇到了错误."
+"Activate Shopper Theme","激活模板"
+"An error occurred while activating theme","激活遇到了错误."
+"Update Currency","更新汇率"
+"Select if you wish to update allowed currencies to USD, EUR, POUND","选择进行更新汇率为CNY"
+"Create Cms Pages & Blocks","创建页面和模块"
+"Activate Parameters","激活参数"
+"Activate Theme","激活模板"
+"Categories Color Schemes","分类颜色风格"
+"Color Scheme Manager","分类设计管理"
+"Add Scheme","添加设计"
+"Category id","分类Id"
+"Category Id","分类Id"
+"Apply Scheme to Subcategories?","子分类生效"
+"Enable Google Font","字体设定"
+"Font","字体"
+"Scheme Information","设计信息"
+"Scheme information","设计信息"
+"Theme Color","整体颜色"
+"Title Color","标题颜色"
+"Header bg Color","页眉背景颜色"
+"Navigation Color","导航颜色"
+"Slideshow bg Color","幻灯背景色"
+"Content bg Color","内容背景颜色"
+"Content Background Image","内容背景图片"
+"Content Background Image Display mode","内容背景显示模式"
+"stretch","拉伸"
+"tile","平铺"
+"Content link Color","内容超链接颜色"
+"Content link Mouseover Color","内容超链接悬浮颜色"
+"Page title bg Color","页眉标题背景颜色"
+"Toolbar bg Color","工具条背景色"
+"Edit Scheme '%s'","编辑设计 '%s'"
+"Delete Scheme","删除设计"
+"Save Scheme","保存设计"
+
+
+"Toolbar Color","工具条字体颜色"
+"Toolbar Mouseover Color","工具条字体悬浮颜色"
+"Footer bg Color","页尾背景颜色"
+"Footer Color","页尾字体颜色"
+"Footer Mouseover Color","页尾字体悬浮颜色"
+"Footer banners bg Color","页尾广告条背景颜色"
+"Footer info bg Color","页尾信息框背景颜色"
+"Footer info border Color","页尾信息框边框颜色"
+"Footer info Title Color","页尾信息框标题颜色"
+"Footer info Color","页尾信息框字体颜色"
+"Footer info link Color","页尾信息框超链接颜色"
+"Footer info link mouseover Color","页尾信息框超链接悬浮颜色"
+"Price Font","价格字体"
+"Price Color","价格字体颜色"
+"Price circle Color","价格圈颜色"
+"- Please select -","- 请选择 -"
+" - Please select - ","- 请选择 -"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
